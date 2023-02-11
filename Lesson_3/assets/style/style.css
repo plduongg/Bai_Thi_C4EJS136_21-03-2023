@@ -1,0 +1,62 @@
+h1 {
+    color: rgb(0, 213, 255);
+    font-family: 'Itim', cursive;
+    font-size: 55px;
+}
+
+h2 {
+    color: rgb(0, 213, 255);
+    font-family: "Itim", cursive;
+    font-size: 40px;
+}
+
+body {
+    background-color: pink;
+    width: 70%;
+}
+
+.img-2 {
+    border-radius: 50% 50% 50% 50%;
+}
+
+.line {
+    border-top: dashed white 10px;
+    border-bottom: dashed white 10px;
+}
+
+.pro5 {
+    color: rgb(0, 213, 255);
+    font-family: "Itim", cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul {
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.ig {
+    color: white;
+    font-family: "Itim", cursive;
+}
+
+.thank {
+    font-size: large;
+    font-family: 'Itim', cursive;
+    color: white;
+}
+
+.line1 {
+    border-bottom: dashed white 10px;
+}
