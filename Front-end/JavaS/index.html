@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./demo.js"></script>
+</head>
+<body>
+    <div>
+        <label for="name">Họ và tên</label>
+        <input placeholder="Nhập họ và tên" id="names" onchange="getName();"/>
+        <br>
+        <br>
+        <label>Năm sinh</label>
+        <input placeholder="Năm sinh" id="birthday" onchange="getBirthday();"/>
+        <br>
+        <br>
+        <button onclick="saveData()">Tạo thông tin</button>
+        <button onclick="showData()">Show thông tin vừa nhập</button>
+    </div>
+    <div id="listvuanhap">
+
+    </div>
+</body>
+</html>
